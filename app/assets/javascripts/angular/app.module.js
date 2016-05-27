@@ -1,1 +1,3 @@
-angular.module("testapp", ['ui.router', 'templates', 'homeCtrl']);
+angular.module("testapp", ['ui.router', 'templates', 'controllers']);
+
+controllers = angular.module('controllers', [])
